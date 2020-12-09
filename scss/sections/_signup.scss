@@ -1,0 +1,60 @@
+.co-1 {
+    padding: 2rem 3rem;
+
+}
+@media(min-width: 768px){.co-1 { width: 900px; height: 620px;}}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    
+}
+
+.title {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-size: 14px;
+
+    .sub-t {
+        display: none;
+    }
+    @media(min-width: 768px){.sub-t  {display: block;}}
+
+    .text-blue {
+        color: $blue;
+        cursor: pointer;
+        &:hover {
+            color: $pink;
+        }
+    }
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.btn2 {
+
+    border: none;
+    height: 35px;
+    width: 150px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    background: $gradient1;
+
+    &:hover {
+    background: $gradient2;
+     }
+
+}
+
+.bit {
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
